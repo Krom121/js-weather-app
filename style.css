@@ -15,7 +15,13 @@ body {
     color: whitesmoke;
 }
 
-.location, .temperture {
+.heading-primary{
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.location, .temperature {
     height: 30vh;
     width: 50%;
     display: flex;
@@ -23,13 +29,19 @@ body {
     align-items: center;
 }
 
-.temperture {
+.location-timezone{
+    font-weight: 400;
+    text-transform: uppercase; 
+}
+
+.temperature {
     flex-direction: column;
 }
 
 .degree-section {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .degree-section span {
@@ -40,4 +52,12 @@ body {
 
 .degree-section h2 {
     font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.temperature-description{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
